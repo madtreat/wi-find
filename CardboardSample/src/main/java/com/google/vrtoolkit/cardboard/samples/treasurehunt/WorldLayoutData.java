@@ -19,9 +19,9 @@ package com.google.vrtoolkit.cardboard.samples.treasurehunt;
 /**
  * Contains vertex, normal and color data.
  */
-public final class WorldLayoutData {
+public class WorldLayoutData {
 
-  public static final float[] CUBE_COORDS = new float[] {
+  public static float[] CUBE_COORDS = new float[] {
       // Front face
       -1.0f, 1.0f, 1.0f,
       -1.0f, -1.0f, 1.0f,
@@ -71,7 +71,7 @@ public final class WorldLayoutData {
       -1.0f, -1.0f, -1.0f,
   };
 
-  public static final float[] CUBE_COLORS = new float[] {
+  public static float[] CUBE_COLORS = new float[] {
       // front, green
       0f, 0.5273f, 0.2656f, 1.0f,
       0f, 0.5273f, 0.2656f, 1.0f,
@@ -121,7 +121,7 @@ public final class WorldLayoutData {
       0.8359375f,  0.17578125f,  0.125f, 1.0f,
   };
 
-  public static final float[] CUBE_FOUND_COLORS = new float[] {
+  public static float[] CUBE_FOUND_COLORS = new float[] {
       // front, yellow
       1.0f,  0.6523f, 0.0f, 1.0f,
       1.0f,  0.6523f, 0.0f, 1.0f,
@@ -171,7 +171,7 @@ public final class WorldLayoutData {
       1.0f,  0.6523f, 0.0f, 1.0f,
   };
 
-  public static final float[] CUBE_NORMALS = new float[] {
+  public static float[] CUBE_NORMALS = new float[] {
       // Front face
       0.0f, 0.0f, 1.0f,
       0.0f, 0.0f, 1.0f,
@@ -221,7 +221,7 @@ public final class WorldLayoutData {
       0.0f, -1.0f, 0.0f
   };
 
-  public static final float[] FLOOR_COORDS = new float[] {
+  public static float[] FLOOR_COORDS = new float[] {
       200f, 0, -200f,
       -200f, 0, -200f,
       -200f, 0, 200f,
@@ -230,7 +230,7 @@ public final class WorldLayoutData {
       200f, 0, 200f,
   };
 
-  public static final float[] FLOOR_NORMALS = new float[] {
+  public static float[] FLOOR_NORMALS = new float[] {
       0.0f, 1.0f, 0.0f,
       0.0f, 1.0f, 0.0f,
       0.0f, 1.0f, 0.0f,
@@ -239,12 +239,21 @@ public final class WorldLayoutData {
       0.0f, 1.0f, 0.0f,
   };
 
-  public static final float[] FLOOR_COLORS = new float[] {
-      0.0f, 0.3398f, 0.9023f, 1.0f,
-      0.0f, 0.3398f, 0.9023f, 1.0f,
-      0.0f, 0.3398f, 0.9023f, 1.0f,
-      0.0f, 0.3398f, 0.9023f, 1.0f,
-      0.0f, 0.3398f, 0.9023f, 1.0f,
-      0.0f, 0.3398f, 0.9023f, 1.0f,
+  public static float[] FLOOR_COLORS = new float[] {
+    
+    1.0f,    0.0f,    0.0f, 1.0f,
+    1.0f,    0.0f,    0.0f, 1.0f,
+    1.0f,    0.0f,    0.0f, 1.0f,
+    1.0f,    0.0f,    0.0f, 1.0f,
+    1.0f,    0.0f,    0.0f, 1.0f,
+    1.0f,    0.0f,    0.0f, 1.0f,
+    
+    
+//      0.0f, 0.3398f, 0.9023f, 1.0f,
+//      0.0f, 0.3398f, 0.9023f, 1.0f,
+//      0.0f, 0.3398f, 0.9023f, 1.0f,
+//      0.0f, 0.3398f, 0.9023f, 1.0f,
+//      0.0f, 0.3398f, 0.9023f, 1.0f,
+//      0.0f, 0.3398f, 0.9023f, 1.0f,
   };
 }
